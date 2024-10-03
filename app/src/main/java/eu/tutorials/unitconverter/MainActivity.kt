@@ -108,7 +108,7 @@ fun unitConverter(){
                         onClick = {
                             inputExpanded = false
                             inputUnit = "Meters"
-                            conversionFactor.value = 1.0
+                            conversionFactor.value = 1.00
                             convertUnits()
                         })
                     DropdownMenuItem(text = { Text("Feet")},
